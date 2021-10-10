@@ -22,8 +22,8 @@ npm init -y
 
 ```
 ## Install NPM packages
-here serverless@1.63.0 version is worth to note. if we use latest, it is throwing an error like 
-missing aws lambda trace data for x-ray. ensure active tracing is enabled and no subsegments are created outside the function handler
+here serverless@1.63.0 version is worth to note. if we use latest, it is throwing an error like </br>
+<b>missing aws lambda trace data for x-ray. ensure active tracing is enabled and no subsegments are created outside the function handler<b>
 ```
 npm install -D serverless@1.63.0
 npm install aws-sdk
