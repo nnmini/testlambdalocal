@@ -1,9 +1,9 @@
 # Setup 
  
- create a new directory in your laptop.
- open directory in vscode IDE
- open terminal in vscode
- follow below steps.
+ create a new directory in your laptop.</br>
+ open directory in vscode IDE</br>
+ open terminal in vscode</br>
+ follow below steps.</br>
  
 # Setup Serverless
 
@@ -22,7 +22,7 @@ npm init -y
 
 ```
 ## Install NPM packages
-here serverless@1.63.0 version is worth to note. if we use latest sometimes it is throwing an error like 
+here serverless@1.63.0 version is worth to note. if we use latest, it is throwing an error like 
 missing aws lambda trace data for x-ray. ensure active tracing is enabled and no subsegments are created outside the function handler
 ```
 npm install -D serverless@1.63.0
@@ -33,6 +33,7 @@ add your backend code in js file. and start test it.
 ```
 AWS_PROFILE=<your aws profilename> serverless invoke local -f hello
 ```
+here hello is function name.
 
 ## How to pass the event to lambda function
 ```
