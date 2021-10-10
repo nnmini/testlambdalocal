@@ -1,3 +1,10 @@
+# Setup 
+ 
+ create a new directory in your laptop.
+ open directory in vscode IDE
+ open terminal in vscode
+ follow below steps.
+ 
 # Setup Serverless
 
 ## Create a service 
