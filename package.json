@@ -1,0 +1,26 @@
+{
+  "name": "testlambdalocal",
+  "version": "1.0.0",
+  "description": "## Create a service  ``` sls create --template aws-nodejs --path helloService",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nnmini/testlambdalocal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nnmini/testlambdalocal/issues"
+  },
+  "homepage": "https://github.com/nnmini/testlambdalocal#readme",
+  "devDependencies": {
+    "serverless": "^1.63.0"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1004.0"
+  }
+}
